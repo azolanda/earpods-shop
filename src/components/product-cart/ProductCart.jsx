@@ -48,7 +48,7 @@ export default function ProductCart({id, img, imgCart, title, cost, costBefore, 
             <div className='cart-img-quantity-info'>
                 <div className='cart-img-quantity'>
                     <div className="cart-img">
-                        <img className="cart-picture" src={imgCart?`./src/assets/` + imgCart:`./src/assets/` + img} alt="product img"/>
+                        <img className="cart-picture" src={imgCart?`./src/assets/${imgCart}`:`./src/assets/${img}`} alt="product img"/>
                     </div>
                     <div className='cart-quantity'>
                         <button onClick={decreaseQuantity} className='change-quantity'>               
