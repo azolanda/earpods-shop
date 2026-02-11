@@ -1,6 +1,6 @@
 export const products = [{
         id: 1,
-        img: "/assets/product-images/earpods1.png",
+        img: "earpods1.png",
         imgCart: "earpods1_cart.png",
         title: "Apple BYZ S852I",
         cost: 2927,

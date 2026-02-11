@@ -19,7 +19,7 @@ export default function Product({id, img, title, cost, costBefore, rate, setTota
         }
     }, [count]);
 
-    const imgPath = `/src/${img}`;
+    const imgPath = `/earpods-shop/src/assets/${img}`;
 
     return (
         <div className='product-item'>
