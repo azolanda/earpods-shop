@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./FooterMenu.css";
+import languageIcon from "../../assets/language-icon.svg";
 
 export default function FooterMenu() {
     const selectLanguage = (e) => {
@@ -26,7 +27,7 @@ export default function FooterMenu() {
                 <Link to="https://www.neoflex.ru/services" className='footer-menu__link' >Условия сервиса</Link>
             </li>
             <li className='footer-language'>
-                <img src="./src/assets/language-icon.svg" alt="language" />
+                <img src={languageIcon} alt="language" />
                 <ul className='footer-language__list'>
                     <li onClick={selectLanguage} className='footer-menu__li footer-language__li' title='Каз'>Каз</li>
                     <li onClick={selectLanguage} className='footer-menu__li footer-language__li footer-language__li--active' title='Рус'>Рус</li>
