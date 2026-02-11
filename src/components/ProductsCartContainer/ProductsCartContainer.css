@@ -1,0 +1,12 @@
+.products-cart-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 57.03%;
+}
+
+@media (max-width: 1024px) {
+    .products-cart-section {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,55 @@
+.header-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__icon {
+    position: relative;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header__img path {
+    transition: fill .3s;
+}
+
+.header__img:hover path {
+    fill: #FFA542;
+}
+
+.header__icon--last {
+    padding-right: 6px;
+}
+
+.header-button__link {
+    position: relative;
+}
+
+.cart-counter__none {
+    display: none;
+}
+
+.cart-counter__badge {
+    background-color: #FFA542;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+    min-width: 18px;
+    padding: 0 4px;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 10px;
+    left: 36px;
+    z-index: 9999;
+}

@@ -1,0 +1,16 @@
+.logo-block{
+    display: flex;
+    align-items: center;
+}
+
+.logo-link{
+    display: flex;
+}
+
+.logo path{
+    transition: fill .3s;
+}
+
+.logo:hover path{
+    fill:#FFA542;
+}

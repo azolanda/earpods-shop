@@ -1,0 +1,64 @@
+.total-cart {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 21px 0 0;
+    max-width: 31.5%;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: sticky;
+    top: 80px;
+}
+
+.total-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0 21px;
+}
+
+.total-heading,
+.total-sum {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.total-button {
+    background-color: #101010;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 14px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    transition: background-color .3s;
+}
+
+.total-button:hover {
+    background-color: #FFA542;
+}
+
+@media (max-width: 1024px) {
+    .total-button {
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .total-cart {
+        position: relative;
+        top: unset;
+        max-width: 100%;
+        width: 100%;
+    }
+}

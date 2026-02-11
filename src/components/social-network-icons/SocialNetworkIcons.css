@@ -1,0 +1,14 @@
+.social__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+
+.social-icon path{
+    transition: fill .3s;
+}
+
+.social-icon:hover path{
+    fill:#FFA542;
+}
