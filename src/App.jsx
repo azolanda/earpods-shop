@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <TotalQuantityInCartContext.Provider value = {{totalQuantityInCart, setTotalQuantityInCart}}>
-      <BrowserRouter basename="/neoflex_test/" >
+      <BrowserRouter basename="/earpods-shop/" >
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/cart" element={<Cart />} />
