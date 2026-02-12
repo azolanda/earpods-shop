@@ -11,7 +11,7 @@ export default function Cart() {
                 behavior: "smooth",
             });
         }
-    });
+    }, []);
 
     return (
         <div className='wrapper'>
