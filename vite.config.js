@@ -17,7 +17,7 @@ export default ({
 
     return defineConfig({
         plugins: [react()],
-        base: process.env.MODE === "production" ? "/earpods-shop/" : "/",
+        base: process.env.NODE_ENV === "production" ? "/earpods-shop/" : "/",
         build: {
             assetsDir: "assets",
         },
