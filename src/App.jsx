@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Index from './pages/index/Index';
 import Cart from './pages/cart/Cart';
 import "./App.css"
@@ -20,14 +20,14 @@ export default function App() {
 
   return (
     <TotalQuantityInCartContext.Provider value = {{totalQuantityInCart, setTotalQuantityInCart}}>
-      <BrowserRouter basename={import.meta.env.MODE === "production" ? "/earpods-shop/" : "/"} >
+      <HashRouter basename="/">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/product" element={<ProductPage/>}></Route>
-          <Route path="*" element={<Index />} />
+          <Route path="/*" element={<Index />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </TotalQuantityInCartContext.Provider>
   )
 }
