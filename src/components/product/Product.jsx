@@ -19,12 +19,10 @@ export default function Product({id, img, title, cost, costBefore, rate, setTota
         }
     }, [count]);
 
-    const imgPath = `./src/assets/${img}`;
-
     return (
         <div className='product-item'>
             <div className="product-img">
-                <img className="product-picture" src={imgPath} alt="product img"/>
+                <img className="product-picture" src={img} alt="product img"/>
             </div>
             <div className="product-info">
                 <div className="heading-cost">
