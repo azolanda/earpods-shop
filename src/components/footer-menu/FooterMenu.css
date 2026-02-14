@@ -22,8 +22,7 @@
 
 .footer-language {
 	display: flex;
-	justify-content: space-between;
-	gap: 15px;
+	gap: 16px;
 }
 
 .footer-language__list {
@@ -72,8 +71,15 @@
 
 @media (max-width: 640px) {
 	.footer-menu__list {
-		/* column-gap: 174px; */
 		max-height: unset;
 		align-items: center;
+	}
+
+	.footer-menu__li {
+		text-align: center;
+	}
+
+	.footer-language {
+		padding-top: 16px;
 	}
 }

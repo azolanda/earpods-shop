@@ -3,9 +3,11 @@ import "./MainCart.css";
 import { products } from '../../data';
 import ProductsCartContainer from '../ProductsCartContainer/ProductsCartContainer';
 import TotalCart from '../total-cart/TotalCart';
+import { useTranslation } from 'react-i18next';
 
 export default function MainCart() {
   const [productsTotalSum, setProductsTotalSum] = useState({});
+  const { t } = useTranslation();
 
   const cart = useMemo(() => {
     const productsInCart = [];
@@ -35,7 +37,7 @@ export default function MainCart() {
  
   return (
     <main className='main-cart center'>
-      <h1 className='cart-heading'>Корзина</h1>
+      <h1 className='cart-heading'>{t("cart")}</h1>
       <div className='cart-content'>
         <ProductsCartContainer products = {cart} setProductsTotalSum = {setProductsTotalSum}/>
         <TotalCart totalSum={totalCartSum}/>

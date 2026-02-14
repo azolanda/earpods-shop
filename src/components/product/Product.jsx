@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom';
 import "./Product.css";
 import { useComponentDidMount } from '../../hooks/useComponentDidMount';
 import rateIcon from "../../assets/rate.svg";
+import { useTranslation } from 'react-i18next';
 
 export default function Product({id, img, title, cost, costBefore, rate, setTotalQuantityInCart}) {
     const [count, setCount] = useState(+sessionStorage.getItem(id));
     const isComponentMounted = useComponentDidMount();
+    const { t } = useTranslation();
 
     const addToCart = () => {
         setCount(prev => prev + 1);
@@ -39,7 +41,7 @@ export default function Product({id, img, title, cost, costBefore, rate, setTota
                             <span className="rate-value">{rate}</span>
                         </div>
                         <button onClick={addToCart} className="product-heading">
-                            Купить
+                            {t("productButton")}
                         </button>
                     </div>
             </div>   
