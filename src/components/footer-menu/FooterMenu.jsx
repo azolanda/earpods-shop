@@ -28,9 +28,8 @@ export default function FooterMenu() {
         const savedLanguage = localStorage.getItem('i18nextLng');
         const savedLanguageElement = document.querySelector(`[title=${savedLanguage}]`);
         const commonLanguageElement = document.querySelector('[title="ru"]');
-        
 
-        if (savedLanguage && savedLanguage === "ru") {
+        if (savedLanguage) {
             setSelectedLanguage(savedLanguage); 
             selectLanguage(savedLanguage);
             savedLanguageElement?.classList.add("footer-language__li--active"); 

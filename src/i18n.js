@@ -9,9 +9,10 @@ import EN from "./locales/en/translation.json";
 import KAZ from "./locales/kaz/translation.json";
 
 i18n.use(Backend).use(LanguageDetector).use(initReactI18next).init({
-    fallbackLng: 'ru',
     debug: true,
     defaultNS: 'ns1',
+    lng: localStorage.getItem("i18nextLng") || "ru",
+    fallbackLng: "ru",
     resources: {
         en: {
             ns1: EN
