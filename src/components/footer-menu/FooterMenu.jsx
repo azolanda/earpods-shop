@@ -51,7 +51,7 @@ export default function FooterMenu() {
                 <Link to="https://www.neoflex.ru/contacts" className='footer-menu__link'>{t("contacts")}</Link>
             </li>
             <li className='footer-menu__li'>
-                <Link to="https://www.neoflex.ru/services" className='footer-menu__link' >{t("termsOfService")}</Link>
+                <Link to="/terms-of-service" className='footer-menu__link' >{t("termsOfService")}</Link>
             </li>
             <li className='footer-language'>
                 <img src={languageIcon} alt="language" />

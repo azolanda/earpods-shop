@@ -1,12 +1,13 @@
 import React from 'react';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
+import TextContent from '../../components/textContent/TextContent';
 
 export default function ProductPage() {
   return (
     <div className="wrapper">
       <Header />
-      <h1>Страница товара</h1>
+      <TextContent heading = "Условия сервиса"/>
       <Footer />
     </div>
   )
