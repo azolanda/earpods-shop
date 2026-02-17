@@ -42,7 +42,7 @@ export default function FooterMenu() {
         <ul className='footer-menu__list'>
             
             <li className='footer-menu__li'>
-                <Link to="https://www.neoflex.ru/project-list" className='footer-menu__link'>{t("favourites")}</Link>
+                <Link to="/" className='footer-menu__link'>{t("favourites")}</Link>
             </li>            
             <li className='footer-menu__li'>
                 <Link to="/cart" className='footer-menu__link'>{t("cart")}</Link>

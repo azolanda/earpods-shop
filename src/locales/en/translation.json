@@ -7,5 +7,21 @@
     "contacts": "Contacts",
     "termsOfService": "Terms of Service",
     "totalHeading": "Total",
-    "totalButton": "Place an order"
+    "totalButton": "Place an order",
+    "summary1TermsOfService": "What cases are not covered by the warranty?",
+    "summary2TermsOfService": "The receipt is lost. What should I do?",
+    "summary3TermsOfService": "What should I do if I can't bring the product to a service center?",
+    "text1TermsOfService": "The device malfunction is caused by a violation of the rules for its operation, transportation, and storage, as specified in the user manual.",
+    "text2TermsOfService": "The original serial number is missing, damaged, or unreadable on the device.",
+    "text3TermsOfService": "The device has missing or damaged factory or warranty seals and stickers.",
+    "text4TermsOfService": "The device was repaired, maintained, or upgraded by individuals who were not authorized by the manufacturer.",
+    "text5TermsOfService": "Device defects are caused by using the device with software that is not included with the device or is not approved for use by the device manufacturer.",
+    "text6TermsOfService": "Keep the purchase receipt. This will save you time when applying for a warranty.",
+    "text7TermsOfService": "If the receipt is lost or damaged, then:",
+    "text8TermsOfService": "prepare information in advance about when and where you purchased the product (exact or approximate purchase date, store), and whether any accessories or other devices were purchased with the product;",
+    "text9TermsOfService": "contact the service center or store with the product and all the information about its purchase.",
+    "text10TermsOfService": "The specialist will find your purchase in the database and suggest a solution to the current situation.",
+    "text11TermsOfService": "If it is a large-sized appliance, you can contact the service center by phone and order a service for removing large-sized appliances or calling a technician to your home (if the service is available in your region).",
+    "text12TermsOfService": "If your product is medium-sized or smaller, you can also contact the service center by phone and be consulted remotely about any issues with your product.",
+    "text13TermsOfService": "Typical products in this category include refrigerators, washing machines, electric and gas stoves, dishwashers, built-in ovens, air purifiers, and TVs with a diagonal size of 40″ or more."
 }
