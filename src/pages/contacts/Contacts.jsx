@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import DetailsContainer from "../../components/details-container/DetailsContainer";
+import ContactsContainer from "../../components/contacts-container/ContactsContainer";
 import { useTranslation } from "react-i18next";
 
-export default function TermsOfService() {
+export default function Contacts() {
   const { t } = useTranslation();
 
   return (
     <div className="wrapper">
       <Header />
-      <DetailsContainer heading={t("termsOfService")} />
+      <ContactsContainer heading={t("contacts")} />
       <Footer />
     </div>
   );
